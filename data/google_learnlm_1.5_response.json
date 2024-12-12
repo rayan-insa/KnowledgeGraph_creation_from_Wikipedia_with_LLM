@@ -1,0 +1,346 @@
+{
+    "nodes": [
+      [
+        "muhammad",
+        "Person",
+        {
+          "name": "Muhammad",
+          "birthdate": "570 CE",
+          "deathdate": "632 CE"
+        }
+      ],
+      [
+        "islam",
+        "Religion",
+        {
+          "name": "Islam"
+        }
+      ],
+      [
+        "quran",
+        "Book",
+        {
+          "name": "Quran"
+        }
+      ],
+      [
+        "mecca",
+        "City",
+        {
+          "name": "Mecca"
+        }
+      ],
+      [
+        "medina",
+        "City",
+        {
+          "name": "Medina"
+        }
+      ],
+      [
+        "abdullah",
+        "Person",
+        {
+          "name": "Abdullah"
+        }
+      ],
+      [
+        "amina",
+        "Person",
+        {
+          "name": "Amina"
+        }
+      ],
+      [
+        "abdalmuttalib",
+        "Person",
+        {
+          "name": "Abd al-Muttalib"
+        }
+      ],
+      [
+        "abutalib",
+        "Person",
+        {
+          "name": "Abu Talib"
+        }
+      ],
+      [
+        "khadija",
+        "Person",
+        {
+          "name": "Khadija"
+        }
+      ],
+      [
+        "gabriel",
+        "Angel",
+        {
+          "name": "Gabriel"
+        }
+      ],
+      [
+        "kaaba",
+        "Structure",
+        {
+          "name": "Kaaba"      }
+      ],
+          [
+        "hira",
+        "Location",
+        {
+          "name": "Hira cave"
+        }
+      ],
+      [
+        "constitutionofmedina",
+        "Document",
+        {
+          "name": "Constitution of Medina"
+        }
+      ],
+      [
+        "battleofbadr",
+        "Event",
+        {
+          "name": "Battle of Badr",
+          "date":"624"
+         }
+      ],
+          [
+        "banuqaynuqa",
+        "Group",
+        {
+          "name": "Banu Qaynuqa"
+        }
+      ],
+          [
+        "kabibnalashraf",
+        "Person",
+        {
+          "name": "Ka'b ibn al-Ashraf"
+        }
+      ],
+          [
+        "battleofuhud",
+        "Event",
+        {
+          "name": "Battle of Uhud",
+                  "date":"625"
+        }
+      ],
+          [
+        "banunadir",
+        "Group",
+        {
+          "name": "Banu Nadir"
+        }
+      ],
+          [
+        "banumustaliq",
+        "Group",
+        {
+          "name": "Banu Mustaliq"
+        }
+      ],
+          [
+        "battleofthetrench",
+        "Event",
+        {
+          "name": "Battle of the Trench",
+                  "date":"627"
+        }
+      ],
+          [
+        "banuqurayza",
+        "Group",
+        {
+          "name": "Banu Qurayza"
+        }
+      ],
+          [
+        "banufazara",
+        "Group",
+        {
+          "name": "Banu Fazara"
+        }
+      ],
+      [
+        "treatyofhudaybiyya",
+        "Document",
+        {
+          "name": "Treaty of Hudaybiyya",
+          "date": "628"
+        }
+      ],
+          [
+        "khaybar",
+        "City",
+        {
+          "name": "Khaybar"
+        }
+      ],
+          [
+        "conquestofmecca",
+        "Event",
+              {
+          "name": "Conquest of Mecca",
+          "date": "630"
+        }
+      ],
+      [
+        "farewellpilgrimage",
+        "Event",
+        {
+                  "name": "Farewell Pilgrimage",
+          "date": "632"
+        }
+      ]
+    ],
+    "relationships": [
+      [
+        "muhammad",
+        "founder",
+        "islam",
+        {}
+      ],
+      [
+        "muhammad",
+        "bornin",
+        "mecca",
+        {}
+      ],
+      [
+        "muhammad",
+        "livedin",
+        "medina",
+        {}
+      ],
+          [
+        "muhammad",
+        "father",
+        "abdullah",
+        {}
+      ],
+          [
+        "muhammad",
+        "mother",
+        "amina",
+        {}
+      ],
+          [
+        "muhammad",
+        "grandfather",
+        "abdalmuttalib",
+        {}
+      ],
+          [
+        "muhammad",
+        "uncle",
+        "abutalib",
+        {}
+      ],
+          [
+        "muhammad",
+        "married",
+        "khadija",
+        {}
+      ],
+      [
+        "muhammad",
+        "visitedby",
+        "gabriel",
+          {"location":"hira"}
+      ],
+          [
+        "muhammad",
+        "kissed",
+        "kaaba",
+        {}
+      ],
+      [
+        "muhammad",
+        "created",
+        "constitutionofmedina",
+        {}
+      ],
+      [
+        "muhammad",
+        "led",
+        "battleofbadr",
+        {}
+      ],
+          [
+        "muhammad",
+        "expelled",
+        "banuqaynuqa",
+        {}
+      ],
+              [
+        "kabibnalashraf",
+        "criticized",
+        "muhammad",
+        {}
+      ],
+          [
+        "muhammad",
+        "lost",
+        "battleofuhud",
+        {}
+      ],
+          [
+        "muhammad",
+        "expelled",
+        "banunadir",
+        {}
+      ],
+          [
+        "muhammad",
+        "attacked",
+        "banumustaliq",
+        {}
+      ],
+       [
+        "muhammad",
+        "won",
+        "battleofthetrench",
+        {}
+      ],
+          [
+        "muhammad",
+        "destroyed",
+        "banuqurayza",
+        {}
+      ],
+          [
+        "muhammad",
+        "attacked",
+        "banufazara",
+        {}
+      ],
+      [
+        "muhammad",
+        "signed",
+        "treatyofhudaybiyya",
+        {}
+      ],
+          [
+        "muhammad",
+        "conquered",
+        "khaybar",
+        {}
+      ],
+          [
+        "muhammad",
+        "led",
+        "conquestofmecca",
+        {}
+      ],
+      [
+        "muhammad",
+        "led",
+        "farewellpilgrimage",
+        {}
+      ]
+    ]
+  }
